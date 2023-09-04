@@ -1,0 +1,148 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Cookie', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif; */
+}
+/* .main{
+    justify-content: space-around;
+    align-items: center;
+} */
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 75px 0px 0px 50px;
+}
+.not_found_img{
+    width: 45vw;
+}
+.not_found_img img{
+    width: 100%;
+}
+.not_found_content{
+    margin: 0px;
+    padding: 0px;
+    width: 55vw;
+}
+.not_found_header{
+    font-size: 3rem;
+}
+.not_found_des{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+
+.btn_back_home{
+    color: white;
+    background-color: rgb(26, 15, 15);
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+}
+
+/* Responsiveness codes are here */
+/* For smaller device */
+
+@media screen and (max-width: 576px){
+    .container{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.not_found_photo{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.not_found_content{
+    padding-left: 70px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.not_found_header{
+    font-size: 2.5rem;
+}
+.not_found_des{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+.btn_back_home{
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+}    
+}
+/* For medium device */
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .container{
+    padding: 0px;
+    margin: 0px;
+}
+.not_found_img{
+    width: 100vw;
+}
+.not_found_img img{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.not_found_content{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100vw;
+}
+.not_found_header{
+    font-size: 2.5rem;
+}
+.not_found_des{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+.btn_back_home{
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+}    
+}
+
+/* For large devices */
+/* For medium device */
+@media screen and (min-width: 769) and (max-width: 992px){
+    .container{
+    padding: 0px;
+    margin: 0px;
+}
+.not_found_img{
+    width: 100vw;
+}
+.not_found_img img{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.not_found_content{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100vw;
+}
+.not_found_header{
+    font-size: 3rem;
+}
+.not_found_des{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+.btn_back_home{
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+}    
+}
